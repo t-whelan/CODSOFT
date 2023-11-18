@@ -1,0 +1,168 @@
+/* imported font */
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+
+header {
+    background-color: rgb(255, 198, 26);
+    color: #ffffff;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Agbalumo', sans-serif; /* Replace 'YourSelectedFont' with the actual font name */
+    font-size: 37px;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+    transition: color 0.3s ease; /* Add transition for color change over 0.3 seconds */
+}
+
+nav a:hover {
+    color: #ff6600; /* Change the color on hover */
+    text-decoration: none;
+}
+
+/* header image */
+.bobas {
+    margin: auto;
+    display: block;
+    width: 100%;
+    /* width: 1550px;
+    height: 534px; */
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(0, 177, 82, 0.707); 
+    color: #333;
+}
+
+.about{
+    background-color: orange;
+    font-family: cursive;
+    
+
+}
+
+.makingboba{
+    margin: auto;
+    display: block;
+}
+
+h2{ 
+    font-family: 'Agbalumo', sans-serif;
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+
+}
+h3{
+    font-family:  'Agbalumo', sans-serif;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* paragraph elements */
+p{
+    color: #f9f9f9;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* listed items */
+li{
+    color: #fff;
+    font-family: cursive;
+    font-size: 26px;
+}
+
+
+ /* Custom styling for the carousel */
+ #carouselExample {
+    max-width: 800px; /* Adjust the maximum width of the carousel */
+    margin: 20px auto; /* Center the carousel */
+    border-radius: 10px; /* Add rounded corners to the carousel container */
+    overflow: hidden; /* Hide overflowing content */
+}
+
+.carousel-inner {
+    border-radius: 10px; /* Add rounded corners to the carousel items */
+    overflow: hidden; /* Hide overflowing content within the carousel items */
+}
+
+.carousel-item img {
+    background-color: rgb(255, 198, 26);
+    border-radius: 50%;
+    object-fit: cover; /* Ensure images maintain aspect ratio while covering the entire carousel item */
+    width: 1500px;
+    height: 100vh;
+    
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for caption */
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.carousel-caption h3 {
+    color: #fff;
+}
+
+.carousel-caption p {
+    color: #eee;
+}
+
+.flavors{
+    background-color: rgb(255, 110, 26);
+    
+}
+
+
+.flavors-img{
+    border-radius: 60px;
+    margin: auto;
+    display: block;
+    padding: 30px;
+}
+
+
+footer {
+    background-color: rgba(255, 117, 195, 0.882);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+   
+}
+.menu{
+   background-color: #ff6600;
+}
