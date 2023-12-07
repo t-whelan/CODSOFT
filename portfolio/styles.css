@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a; /* Dark background */
+    color: #fff;
+}
+
+header {
+    font-size: 30px;
+    font-family: Merriweather;
+    background-color: #6a0dad; /* Purple */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation Bar Styling */
+nav {
+    background-color: #333; /* Dark background for the navigation bar */
+    padding: 10px 0;
+    text-align: center;
+    font-size: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 40px;
+    font-family: 'Merriweather';
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+    color: #6a0dad; /* Purple on hover */
+    transform: translateY(-2px); /* Translate effect on hover */
+}
+
+/* Section Styling */
+section {
+    background-color: #000000; /* Purple */
+    color: #fff;
+    font-size: 23px;
+    font-family: Merriweather;
+    padding: 40px;
+    opacity: 0;
+    transform: translateY(26px);
+    animation: fadeIn 1s ease-out forwards;
+}
+
+
+li{
+    list-style: none;
+    padding: 20px;
+}
+
+/* Headings Styling */
+h2 {
+    background-color: #6a0dad; /* Purple */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Icon Styling */
+.fa-solid{
+    padding: 20px;
+    font-family: 30px;
+}
+.fa-brands{
+    padding: 10px;
+    font-size: 50px;
+
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+footer {
+    background-color: #6a0dad; /* Purple */
+    color: #fff;
+    text-align: left;
+    padding: 0px;
+    bottom: 0;
+    width: 100%;
+}
+
+/* anchor tags */
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#about-text {
+    font-size: 25px;
+}
+
+#skills {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill-group {
+    flex: 1;
+    max-width: 48%; /* Adjust the width as needed */
+}
+
+.skill-group ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skill-group h2 {
+    background-color: #6a0dad; /* Purple */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+}
+
+.skill-group li {
+    padding: 10px;
+    border: 1px solid #6a0dad; /* Purple border */
+    margin-bottom: 10px;
+}
+
+.frontend {
+    color: #ffffff; /* Purple text for frontend */
+}
+
+.backend {
+    color: #ffffff; /* Orange text for backend */
+}
+/* Projects styling */
+
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project {
+    height: 30%;
+    width: 48%; /* Adjust the width as needed */
+    margin-bottom: 20px;
+    border: 1px solid #ddd; /* Border color */
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+}
+
+.project h3 {
+    margin-top: 10px;
+    color: #6a0dad; /* Purple text for project titles */
+}
+
+.project p {
+    color: #333; /* Text color for project descriptions */
+}
+
+.view-button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #6a0dad; /* Purple button color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+        #certificates {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .certificate {
+            width: 45%; /* Adjust the width as needed */
+            margin-bottom: 20px;
+            border: 1px solid #ddd; /* Border color */
+            padding: 10px;
+            box-sizing: border-box;
+            background-color: #fff;
+        }
+
+        .certificate img {
+            width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+
+        .certificate h3 {
+            color: #6a0dad; /* Purple text for certificate titles */
+        }
+
+        .certificate p {
+            color: #333; /* Text color for certificate descriptions */
+        }
+
+        #certificates-heading {
+            text-align: center;
+            font-size: 34px;
+            
+            color: #ffffff; /* Text color for the heading */
+            margin-bottom: 20px;
+        }
+
+
+
+        .resume-button {
+           
+            display: inline-block;
+            margin: 20px;
+            padding: 10px 20px;
+            background-color: #6a0dad;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: background-color 0.3s ease;
+        }
+        
+        .resume-button:hover {
+            background-color: #993be0;
+            
+        }
